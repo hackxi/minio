@@ -26,7 +26,8 @@ import (
 	_ "github.com/minio/minio/cmd/gateway/azure"
 
 	// S3
-	_ "github.com/minio/minio/cmd/gateway/s3"
+	//_ "github.com/minio/minio/cmd/gateway/s3"
+	_ "github.com/hackxi/minio/cmd/gateway/s3"
 
 	// HDFS
 	_ "github.com/minio/minio/cmd/gateway/hdfs"

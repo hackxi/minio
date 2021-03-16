@@ -9,8 +9,10 @@ ENV GO111MODULE on
 RUN  \
      apk add --no-cache git && \
 #     git clone https://github.com/minio/minio && cd minio && \
-     cd /opt/git/minio && \
-     git checkout master && go install -v -ldflags "$(go run buildscripts/gen-ldflags.go)"
+     git clone https://github.com/hackxi/minio.git  && cd minio && \
+#     cd /opt/git/minio && \
+#     git checkout master && go install -v -ldflags "$(go run buildscripts/gen-ldflags.go)"
+     git checkout master && go install -v -ldflags "-s -w -X github.com/minio/minio/cmd.Version=2021-03-16T16:53:54Z -X github.com/minio/minio/cmd.ReleaseTag=DEVELOPMENT.2021-03-16T16-53-54Z -X github.com/minio/minio/cmd.CommitID=fa94682e83ed7c6658d17838cd6c97a3ed725e8f -X github.com/minio/minio/cmd.ShortCommitID=fa94682e83ed -X github.com/minio/minio/cmd.GOPATH=/go -X github.com/minio/minio/cmd.GOROOT="
 
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.3
 
