@@ -20,7 +20,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/hackxi/s3utils"
 	"github.com/minio/minio/cmd/logger"
 	"github.com/minio/minio/pkg/sync/errgroup"
 )

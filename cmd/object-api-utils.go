@@ -37,7 +37,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/klauspost/compress/s2"
 	"github.com/klauspost/readahead"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/hackxi/s3utils"
 	"github.com/minio/minio/cmd/config/compress"
 	"github.com/minio/minio/cmd/config/dns"
 	"github.com/minio/minio/cmd/config/storageclass"

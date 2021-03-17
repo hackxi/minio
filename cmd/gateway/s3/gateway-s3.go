@@ -30,7 +30,7 @@ import (
 	miniogo "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
-	/*"github.com/minio/minio-go/v7/pkg/s3utils" */
+	/*"github.com/hackxi/s3utils" */
 	"github.com/hackxi/s3utils"
 	"github.com/minio/minio-go/v7/pkg/tags"
 	minio "github.com/minio/minio/cmd"

@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/hackxi/s3utils"
 	"github.com/minio/minio-go/v7/pkg/set"
 )
 
