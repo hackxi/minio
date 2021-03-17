@@ -4,7 +4,6 @@ go 1.16
 
 require (
 	cloud.google.com/go v0.39.0
-	github.com/hackxi/s3utils master
 	git.apache.org/thrift.git v0.13.0
 	github.com/Azure/azure-pipeline-go v0.2.2
 	github.com/Azure/azure-storage-blob-go v0.10.0
