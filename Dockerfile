@@ -6,8 +6,8 @@ ENV GOPATH /go
 ENV CGO_ENABLED 0
 ENV GO111MODULE on
 
-RUN go get github.com/hackxi/s3utils@v1.0.0
-RUN go get github.com/hackxi/minio/cmd/gateway@v1.0.0
+RUN go get github.com/hackxi/s3utils@v1.0.1
+RUN go get github.com/hackxi/minio/cmd/gateway@v1.0.1
 
 RUN  \
      apk add --no-cache git && \
