@@ -28,7 +28,8 @@ import (
 	minio "github.com/minio/minio/cmd"
 
 	// Import gateway
-	_ "github.com/minio/minio/cmd/gateway"
+	//_ "github.com/minio/minio/cmd/gateway"
+	_ "github.com/hackxi/minio/cmd/gateway"
 )
 
 func main() {
