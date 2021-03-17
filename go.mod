@@ -1,5 +1,5 @@
-//module github.com/minio/minio
-module github.com/hackxi/minio
+module github.com/minio/minio
+//module github.com/hackxi/minio
 go 1.16
 
 require (
